@@ -8,6 +8,24 @@
     background-color: #001d3d; /* Cor de fundo do céu noturno */
 }
 
+
+ .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 20px; /* Espaçamento entre os ícones */
+        }
+        .social-icons a {
+            text-decoration: none; /* Remove o sublinhado */
+            color: black; /* Cor dos ícones */
+            font-size: 30px; /* Tamanho dos ícones */
+            transition: color 0.3s; /* Efeito de transição */
+        }
+        .social-icons a:hover {
+            color: #0077b5; /* Cor ao passar o mouse (LinkedIn) */
+        }
+
+
+
 .arte {
     position: relative;
     width: 100%;
@@ -53,8 +71,6 @@
 box-shadow: 0 0 20px rgba(255, 255, 0, 1), 0 0 40px rgba(255, 255, 0, 0.5);/* Efeito brilho */
 
 }
-
-
 
 
 
@@ -122,11 +138,6 @@ nav ul li a::after {
 nav ul li a:hover::after {
     transform: scaleX(1);
 }
-
-
-
-
-
 
 
 /* Efeito de sombra nos projetos */
