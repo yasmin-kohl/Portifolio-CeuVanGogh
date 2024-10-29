@@ -57,6 +57,8 @@ box-shadow: 0 0 20px rgba(255, 255, 0, 1), 0 0 40px rgba(255, 255, 0, 0.5);/* Ef
 
 
 
+
+
 header {
     text-align: center;
     margin: 20px 0;
@@ -64,8 +66,14 @@ header {
 
 h1 {
     font-size: 3em;
-    color: #f0e68c; /* Cor amarela suave */
-    text-shadow: 0 0 20px rgba(240, 230, 140, 0.8);
+    color: #ffcc00; /* Um tom mais vibrante de amarelo */
+    text-shadow: 0 0 20px rgba(255, 204, 0, 0.8); /* Efeito de brilho */
+    font-family: 'Lobster', cursive; /* Fonte decorativa para o título */
+}
+
+p {
+    font-size: 1.2em; /* Tamanho do texto do parágrafo */
+    color: #e0e0e0; /* Um cinza claro para o texto */
 }
 
 nav {
@@ -84,26 +92,18 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #f0e68c; /* Cor amarela suave */
+    color: #66ccff; /* Azul suave para os links */
     font-size: 1.2em;
-    transition: color 0.3s;
+    transition: color 0.3s, background-color 0.3s; /* Transição suave para a cor de fundo */
 }
 
 nav ul li a:hover {
     color: #ffffff; /* Muda a cor ao passar o mouse */
+    background-color: rgba(255, 255, 255, 0.2); /* Fundo suave ao passar o mouse */
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
 }
 
-
-
-
 nav ul li a {
-	
-	  background-color: white; /* Fundo branco */
-     opacity: 0.8; /* 80% de opacidade */
-	 /* color: white;*/
-   
-    text-decoration: none;
     position: relative;
 }
 
@@ -122,8 +122,6 @@ nav ul li a::after {
 nav ul li a:hover::after {
     transform: scaleX(1);
 }
-
-
 
 
 
